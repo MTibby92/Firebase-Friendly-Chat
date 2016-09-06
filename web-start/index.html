@@ -107,10 +107,19 @@
   </main>
 </div>
 
-<!-- Firebase -->
-<!-- ***********************************************************************************************************************
-     * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-     *********************************************************************************************************************** -->
+
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAwKEUyHnfanlK-zLVUM8MPPtLyMDD2M7s",
+    authDomain: "fir-chat-tutorial-333bf.firebaseapp.com",
+    databaseURL: "https://fir-chat-tutorial-333bf.firebaseio.com",
+    storageBucket: "fir-chat-tutorial-333bf.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+    
 <script src="scripts/main.js"></script>
 </body>
 </html>
